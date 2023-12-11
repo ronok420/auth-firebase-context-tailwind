@@ -6,6 +6,7 @@ import { initializeApp } from "firebase/app";
 // Your web app's Firebase configuration
 //this code is hidden because of security
 
+
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export default app;

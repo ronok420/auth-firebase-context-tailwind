@@ -23,6 +23,7 @@ const Header = () => {
             <div className="navbar text-neutral-content" style={{ backgroundColor: 'black' }}>
                 <button className="btn btn-ghost text-xl">Auth Master</button>
                 <Link className="btn btn-ghost normal-case text-xl" to="/">home</Link>
+                {user && <Link className="btn btn-ghost normal-case text-xl" to="/orders">orders</Link>}
                 <Link className="btn btn-ghost normal-case text-xl" to="/login">login</Link>
                 <Link className="btn btn-ghost normal-case text-xl" to="/register">register</Link>
                 {user? <> <span>{user.email}</span> 
